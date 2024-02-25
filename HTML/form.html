@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <h1 style="color: midnightblue;">Welcome to HTML5</h1>
+    <h2>Contact Us Form</h2>
+    <form action="/registration" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="personName" placeholder="Enter name"><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Enter email"><br>
+
+        <label for="phone">Contact Number: </label>
+        <input type="tel" id="phone" name="Contact"><br>
+
+        <label for="gender">Gender: </label>
+        <select name="Gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br><br>
+
+
+        <label for="password">Password: </label>
+        <input type="password"><br><br>
+
+        <input type="checkbox" name="dog" value="Dog" />
+        <label for="dog">I own a dog </label><br>
+        <input type="checkbox" name="cat" value="Cat" />
+        <label for="cat">I own a cat </label><br>
+
+        Rating:
+        <input name="rate" type="radio" id="rate1">
+        <label for="rate1">1</label>
+        <input name="rate" type="radio" id="rate2">
+        <label for="rate2">2</label>
+        <input name="rate" type="radio" id="rate3">
+        <label for="rate3">3</label>
+        <input name="rate" type="radio" id="rate4">
+        <label for="rate4">4</label>
+        <input name="rate" type="radio" id="rate5">
+        <label for="rate5">5</label><br><br>
+
+        <label for="sms">Enter Your Message: </label><br>
+        <textarea name="multiline" id="sms" cols="30" rows="10" placeholder="Enter your message"></textarea>
+        <br><br>
+
+        <label for="color">Your Favorite color: </label>
+        <input id="color" type="color" id="color"><br>
+
+        <label for="dob">Enter your date of birth: </label>
+        <input id="dob" name="birthDate" type="date"><br>
+
+        <input type="submit" value="Submit">
+        <input type="Reset" value="Reset"><br>
+
+        <footer>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="" alt="youtube" width="40" height="40">
+            </a>
+        </footer>
+    </form>
+</body>
+
+</html>
